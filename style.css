@@ -1,0 +1,32 @@
+.click-btn{
+    background-image: linear-gradient(135deg, #e4596e, #d793a9, #d9a7bc, #e3cde6);
+
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+.click-btn:hover {
+    /* Change Background on Hover */
+    background-image: linear-gradient(135deg, #d9a7bc, #d793a9, #e4596e, #e3cde6);
+  }
+.title{
+    text-align: center;
+}
+.inner-layer{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    width:30%;
+}
+.bg{
+    background-image: linear-gradient(135deg, #ff87a2, #ffc0cb, #ffd8e1, #f7f0f6);
+min-height:100vh;
+}
